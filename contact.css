@@ -1,0 +1,19 @@
+.four{
+    font-size: 30px;
+            color: lightblue;
+            text-align: left;
+            padding: 10px 20px;
+}
+.four-pages{
+    font-size: 30px;
+    color: gray;
+    text-align: right;
+    padding-top: 250px;
+    padding-right: 20px;
+}
+.phone span{
+    text-decoration: underline; text-underline-position: under;
+}
+.email span{
+    text-decoration: underline;  text-underline-position: under;
+}

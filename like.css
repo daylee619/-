@@ -1,0 +1,59 @@
+.three{
+    font-size: 30px;
+                color: lightblue;
+                text-align: left;
+                padding: 10px 20px;
+         }  
+.heart{
+    font-size: 50px;
+    color: red;
+    text-align: center;
+    padding: 30px;
+
+}
+.like-picture{
+    justify-items: center;
+  
+}
+.like-text{
+    display: flex;  
+    justify-content: space-evenly; 
+    padding-left: 0;
+    font-size: 35px;
+}
+.like-text-one{
+    display: flex;   
+}
+i{
+    padding-right: 10px;
+}
+li{
+    list-style: none;
+}
+
+#slide{
+    overflow: hidden;
+    position: relative;
+    width: 1440px;
+    height: 600px;
+    padding-top: 50px;
+}
+.image-box{
+    width: 5280px;
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    animation: imgmove 5s linear infinite;
+    object-fit: cover;
+}
+
+
+@keyframes imgmove {
+    0%{
+        transform: translate(0,0);
+    }
+    100%{
+        transform: translate(-50%,0);
+    }
+    
+}
